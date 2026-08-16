@@ -1,0 +1,48 @@
+/* RTL Support using Logical Properties & Arabic Typography */
+
+[dir="rtl"] {
+  font-family: var(--font-arabic-utility);
+}
+
+[dir="rtl"] .font-serif,
+[dir="rtl"] .headline-display,
+[dir="rtl"] .headline-lg,
+[dir="rtl"] .headline-md,
+[dir="rtl"] .headline-sm,
+[dir="rtl"] .title-serif,
+[dir="rtl"] .body-editorial {
+  font-family: var(--font-arabic-serif);
+  letter-spacing: 0 !important;
+}
+
+[dir="rtl"] .overline,
+[dir="rtl"] .label-md,
+[dir="rtl"] .label-sm {
+  letter-spacing: 0.5px !important;
+}
+
+[dir="rtl"] .headline-display {
+  line-height: 1.15;
+}
+
+[dir="rtl"] .headline-lg {
+  line-height: 1.2;
+}
+
+/* RTL Arrow/Icon directions */
+[dir="rtl"] .icon-directional {
+  transform: scaleX(-1);
+}
+
+/* Logical alignment utilities */
+.text-start {
+  text-align: start;
+}
+
+.text-end {
+  text-align: end;
+}
+
+.text-center {
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none">
+  <!-- Puli Brand Wordmark Light version for Charcoal/Dark backgrounds -->
+  <g class="puli-mark">
+    <!-- Botanical leaf in vibrant natural Puli green -->
+    <path d="M42 22C42 22 48 26 48 34C48 40 43 45 36 45C28 45 24 38 24 38C24 38 31 37 34 32C37 27 36 22 36 22C36 22 39 22 42 22Z" fill="#6F914F"/>
+    <path d="M30 36C34 34 38 30 40 25" stroke="#FCFBF8" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+  
+  <!-- PULI Wordmark in Light Warm Puli Brown / Ivory -->
+  <text x="64" y="48" font-family="'TT Ramillas', 'Baskervville', 'Cormorant Garamond', serif" font-size="38" font-weight="500" letter-spacing="4" fill="#B8895B">PULI</text>
+  
+  <!-- Supporting Subtitle in Ivory -->
+  <text x="66" y="66" font-family="'Karla', 'Inter', sans-serif" font-size="8.5" font-weight="600" letter-spacing="3.2" fill="#E8DFD2">CONTEMPORARY INDIAN CUISINE</text>
+</svg>

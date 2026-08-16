@@ -1,0 +1,79 @@
+:root {
+  /* ==========================================================================
+     PULI BRAND COLOUR SYSTEM (from puli-design-final.md)
+     ========================================================================== */
+  --puli-brown: #87562D;
+  --puli-brown-dark: #633C1F;
+  --puli-brown-light: #B8895B;
+  --puli-brown-alpha10: rgba(135, 86, 45, 0.1);
+  --puli-brown-alpha20: rgba(135, 86, 45, 0.2);
+
+  --puli-green: #3F6E2A;
+  --puli-green-dark: #29491D;
+  --puli-green-light: #6F914F;
+  --puli-green-alpha15: rgba(63, 110, 42, 0.15);
+
+  /* Neutrals */
+  --ink: #2B2A29;
+  --charcoal: #171615;
+  --charcoal-elevated: #22201E;
+
+  --ivory: #F7F4ED;
+  --warm-white: #FCFBF8;
+  --sand: #E8DFD2;
+
+  --white: #FFFFFF;
+  --muted: #746D65;
+  --muted-light: #A39B91;
+
+  --border: #D8CEC0;
+  --border-light: rgba(216, 206, 192, 0.5);
+  --border-dark: #383430;
+  --border-dark-subtle: rgba(255, 255, 255, 0.12);
+
+  --error: #A63D32;
+  --overlay: rgba(14, 9, 2, 0.65);
+  --overlay-dark: rgba(10, 8, 7, 0.85);
+
+  /* Spacing Scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 80px;
+  --space-10: 120px;
+  --space-11: 160px;
+  --space-12: 200px;
+
+  /* Shapes & Radii - Refined architectural corners */
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+
+  /* Typography Families */
+  --font-serif: 'Cormorant Garamond', 'Baskervville', 'TT Ramillas', 'Playfair Display', Georgia, serif;
+  --font-utility: 'Karla', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-arabic-serif: 'IBM Plex Sans Arabic', 'Noto Sans Arabic', sans-serif;
+  --font-arabic-utility: 'IBM Plex Sans Arabic', 'Noto Sans Arabic', sans-serif;
+
+  /* Transitions */
+  --ease-luxury: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --transition-fast: 0.2s var(--ease-luxury);
+  --transition-normal: 0.35s var(--ease-luxury);
+  --transition-slow: 0.6s var(--ease-luxury);
+  --transition-reveal: 0.85s var(--ease-luxury);
+
+  /* Layout Containers */
+  --max-width: 1440px;
+  --header-height: 96px;
+  --header-height-mobile: 72px;
+  --z-sticky: 100;
+  --z-header: 200;
+  --z-overlay: 500;
+  --z-modal: 600;
+}

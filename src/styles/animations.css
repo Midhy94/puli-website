@@ -1,0 +1,105 @@
+/* Restrained Editorial Animation System */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInSubtle {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.85s var(--ease-luxury) forwards;
+}
+
+.animate-fade-in-delayed {
+  animation: fadeIn 0.85s var(--ease-luxury) 0.25s forwards;
+  opacity: 0;
+}
+
+/* Image Reveal on Scroll */
+.image-reveal-container {
+  overflow: hidden;
+  position: relative;
+  background-color: var(--sand);
+}
+
+.image-reveal-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 1.2s var(--ease-luxury), opacity 0.8s var(--ease-luxury);
+}
+
+.image-reveal-container:hover img {
+  transform: scale(1.03);
+}
+
+/* Luxury Underline Interaction */
+.luxury-underline {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.luxury-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s var(--ease-luxury);
+}
+
+.luxury-underline:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
